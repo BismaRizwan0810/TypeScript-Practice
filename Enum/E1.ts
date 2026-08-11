@@ -1,5 +1,9 @@
-enum AccountStatus{
+enum AccountStatus {
     Active,
-    InActive,
-    Blocked,
+    Inactive,
+    Blocked
+}
+let customerStatus = AccountStatus.Blocked;
+if (customerStatus === AccountStatus.Blocked) {
+    console.log("Transaction Denied");
 }
